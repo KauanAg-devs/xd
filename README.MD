@@ -12,6 +12,6 @@ interface RoutesUI {
   startServer(): http.Server,
 }
 
- quando eu uso `class Routes implements RoutesUI {}`, eu to dizendo que essa classe IMPLEMENTA a interface e portanto, a função `routes()` deve retornar Router, enquanto `startServer()` deve retornar http.Server, que é o tipo de `app.listen()`. 
+ quando eu uso `class Routes implements RoutesUI {}`, eu to dizendo que essa classe IMPLEMENTA a interface e portanto, a função `routes()` deve retornar Router, enquanto `startServer()` da classe `StartServer` deve retornar http.Server, que é o tipo de `app.listen()`. 
 
  O nome deste formato de design é DESIGN ORIENTADO POR CONTRATO, um design pattern. Os princípios de SOLID estão fortes neste lugar.
