@@ -1,0 +1,17 @@
+{
+  "name": "routes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsx --watch routes/routes.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tsc": "^2.0.4",
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2"
+  }
+}
